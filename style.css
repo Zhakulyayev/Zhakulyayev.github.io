@@ -56,7 +56,7 @@ body{
     height: 550px;
     display: block;
     text-align: center;
-    background: url('../FirstSite/img/Search.jpg') center/cover;
+    background: url('../img/Search.jpg') center/cover;
 }
 
 .search_text{
@@ -477,9 +477,8 @@ label{
         font-size: 15px;
     }
 
-    #mapHr{
-        
-    }
+    
+      
 
     #map{
         margin: auto;
