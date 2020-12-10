@@ -344,6 +344,7 @@ label{
     background-color: rgba(43, 43, 43);
     position: relative;
     top: 1235px;
+    /* display: none */
 }
 
 #map{
@@ -357,6 +358,7 @@ label{
 }
 
 #mapHr{
+    /* display: none; */
     top: 1230px; 
     position: relative;
     width: 85%;
@@ -410,12 +412,12 @@ label{
 
     .header{
         display: block;
-        height: 400px; 
+        height: 365px; 
     }
     .header_text{
         display: block;
         text-align: center;
-        font-size: 40px;
+        font-size: 35px;
         border-top: solid 1px#777;
         margin: 0;
         padding-top: 10px;
@@ -434,5 +436,68 @@ label{
 
     .user_profile{
         top: 2px;
+    }
+
+    #сelections{
+        width: auto;
+        height: auto;
+        margin-top: 270px;
+    }
+    .сelectionsTitle{
+        font-size: 35px;
+    }
+    .celectionsWarp{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+
+    .сelectionsCard{
+        width: 200px;
+        height: 200px;
+    }
+
+    .celectionsImg{
+        width: 200px;
+        height: 200px;
+    }
+
+    #сelectionsPName{
+        top: 100px;
+        font-size: 25px;
+    }
+    #сelectionsPCost{
+        top: 115px;
+        font-size: 17px;
+        right: 7px;
+    }
+    #сelectionsPPlace{
+        top: 140px;
+        font-size: 15px;
+    }
+
+    #mapHr{
+        
+    }
+
+    #map{
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        display: block;
+        
+    }
+
+    .maps{
+        width: auto;
+        height: 500px;
+        
+    }
+
+    .mapTitle{
+        left: 30px;
+        top: 330px;
+        font-size: 35px;
     }
 }
